@@ -1,0 +1,10 @@
+.logos {
+    padding: 60px 0;
+    margin: 0;
+    display:flex;
+    justify-content: center;
+}
+
+.logoDesktop {
+    display: none;
+}

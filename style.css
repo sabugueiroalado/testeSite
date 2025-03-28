@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif ;
+    background-color: #2B2B2B;
+}
+
+body,
+html {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ol,
+ul,
+li {
+    list-style: none;
+}
+
+:root {
+    --primeira-cor-fonte: white;
+    --segunda-cor-fonte: #333333;
+    --teceira-cor-fonte: #808080;
+    --cor-de-fundo-login: #BFAFF2;
+    --cor-de-fundo-getstart: #f8d57e;
+    --cor-de-fundo-sistema: #fdf5df;
+
+}

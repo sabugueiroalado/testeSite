@@ -1,0 +1,29 @@
+.beneficios {
+    padding: 0;
+    margin: 0;
+}
+
+.beneficios_box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    gap: 40px;
+}
+
+.beneficios_box_div p {
+    font-size: 18px;
+    text-align: center;
+}
+
+.beneficios_div_titulo {
+    color: var(--primeira-cor-fonte);
+    font-weight: 500;
+}
+
+.beneficios_div_texto {
+    color: var(--teceira-cor-fonte);
+    padding: 5px;  
+}
+

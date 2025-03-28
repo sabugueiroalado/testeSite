@@ -1,0 +1,21 @@
+.sistema {
+    padding-bottom: 60px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sistema div {
+    background-color: var(--cor-de-fundo-sistema);
+    border-radius: 15px;
+}
+
+.sistema_div_img {
+    background-color: var(--cor-de-fundo-sistema);
+    height: 10rem;
+    display: flex;
+    align-items: flex-end;
+    border-radius: 15px;
+    
+}

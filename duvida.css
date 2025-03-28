@@ -1,0 +1,55 @@
+.duvida {
+    padding: 0;
+    margin: 0;
+}
+
+.duvida_box {
+    display: flex;
+    flex-direction: column-reverse;
+    text-align: center;
+    align-items: center;
+    padding: 30px;
+    gap: 40px;
+}
+
+.gif_wallet {
+    height: 268px;
+    width: 300px;
+    border-radius: 20px;
+}
+
+.duvida_box_div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.duvida_box_div h1 {
+    font-size: 2.5rem;
+    color: var(--primeira-cor-fonte);
+    font-weight: 500;
+}
+
+.duvida_box_div_p {
+    color: var(--teceira-cor-fonte);
+    font-size: 1.125rem;
+}
+
+.duvida_box_div_link a {
+    background-color: var(--cor-de-fundo-getstart);
+    color: var(--segunda-cor-fonte);
+    height: 50px;
+    width: 175px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.duvida_box_div_link a:hover {
+    background-color: var(--primeira-cor-fonte);
+    color: var(--segunda-cor-fonte);
+}
